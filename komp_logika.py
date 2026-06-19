@@ -1,0 +1,1 @@
+print("Latihan Komparasi dan Logika")
