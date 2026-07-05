@@ -44,7 +44,7 @@ print("Apakah angka anda lebih dari 8 dan kurang dari 11: ",tengahdelapansebelas
 gabungan = tengahlimanol or tengahdelapansebelas
 print("\n","Hasil gabungannya : ",gabungan)
 
-print("tes")
+
 
 
 
