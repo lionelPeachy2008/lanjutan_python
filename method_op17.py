@@ -32,3 +32,42 @@ print(huruf + " is lower: " + str(ceklower))
 judul = "How To Train Your Dragon"
 cekjudul = judul.istitle()
 print(judul + " is title: " + str(cekjudul))
+
+# mengecek pakai startswith() endswith()
+cek_start = "Lionel Theodore".startswith("Lionel")
+print("start is " + str(cek_start))
+
+cek_end = "Lionel Theodore".endswith("Theodore")
+print("end is " + str(cek_start))
+
+# penggabungan komponen join() split()
+pisah = ['aku','lionel','theodore']
+gabungan = ','.join(pisah)
+print("kata pisah: ", pisah)
+print("digabung jadi: ", gabungan)
+
+gabungan = ' '.join(pisah)
+print("digabung jadi: ", gabungan)
+
+gabungan = ' R '.join(pisah)
+print("digabung jadi: ", gabungan)
+
+gabung = "sayaRlionelRtheodore"
+print(gabung.split('R'))
+
+#alokasi karakter rjust(),ljust(),center()
+
+kanan = "kanan".rjust(10)
+print("'" + kanan +"'")
+
+kiri = "kiri".ljust(10)
+print("'" + kiri +"'")
+
+tengah = "tengah".center(20,"=")
+print("'" + tengah +"'")
+
+# kebalikan strip()
+
+tengahhilang = tengah.strip("=")
+print("'" + tengahhilang +"'")
+
