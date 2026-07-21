@@ -1,5 +1,5 @@
 #membuat tanda ' jadi string
-print("\nini adalah hari jum\'at")
+print("ini adalah hari jum\'at")
 
 #backslash
 print("C:\\user\\Lionel")
